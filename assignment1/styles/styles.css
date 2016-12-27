@@ -1,0 +1,9 @@
+.empty {
+  color: red;
+  border: 1px solid red;
+}
+
+.not-empty {
+  color: green;
+  border: 1px solid green;
+}
