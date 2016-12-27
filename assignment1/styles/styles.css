@@ -1,9 +1,17 @@
-.empty {
+.empty-msg {
   color: red;
-  border: 1px solid red;
 }
 
-.not-empty {
+input[type=text].empty {
+  color: red;
+  border: 2px solid red;
+}
+
+.no-empty-msg {
   color: green;
-  border: 1px solid green;
+}
+
+input[type=text].no-empty  {
+  color: green;
+  border: 2px solid green;
 }
